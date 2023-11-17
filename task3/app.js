@@ -1,3 +1,5 @@
+//Mahima Nair
+
 const celsiusField=document.querySelector("#celsius");
 const inputVal=document.querySelector("#input-value");
 const inputTempType=document.querySelector("#input-temp-type")
