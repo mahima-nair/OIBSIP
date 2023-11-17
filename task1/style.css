@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(to right, #000000,#001F3F);
+    background-size: 100% 100%;
+    animation: gradient-animation 18s ease infinite;
+    font-family: Quicksand, sans-serif;
+    margin: 0;
+
+}
+
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top:5%;
+    font-size: 3.5rem;
+   
+
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top:5%;
+    font-size: 1.5rem;
+    color: #fefbfb;
+
+}
+.hero{
+  background-image:url('./images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
+  background-size: cover;
+  height: 130vh;
+  color:white;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #0f0f0f, #716e6e, #fefbfb);
+    background-size: 100% 100vw;
+    animation: gradient-animation 18s ease infinite;
+    margin: 0;
+    
+  }
+  .title-image{
+    display: block;
+    height: 600px;
+    margin:5%;
+    align-items: center;
+    margin-left: 25%;
+  }
+ 
+  p{
+    text-align: center;
+    font-size: large;
+  
+  }
+
+ .container{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin:40px;
+  padding:20px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+ }
+
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height:50vh;
+    max-width: 600px;
+    max-width: 300px; 
+    background-color: aliceblue; 
+    justify-content: space-around;
+   
+ }
+
+ 
+  .card img { 
+    width: 50%;
+    object-fit: cover;
+  }
+  .card-body {
+    padding: 20px;
+    align-items: center;
+    width:95vw;
+    height:40vh;
+    border-radius: 2%;
+    background-color: aliceblue;
+    margin:10px;
+
+  }
+
+h2{
+
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 50px;
+}
+h3{
+  color: azure;
+  text-align: center;
+  margin:30px;
+  font-size: 1.5em;
+}
+.lineup-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:10px;
+}
+.product{
+  background-color: aliceblue;
+  flex-direction: column;
+  flex-basis:300px;
+  flex-shrink:0;
+  padding:25px;
+  margin: 10px;;
+  border-radius: 5px;
+  
+}
+.product:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+button{
+  background-color: orange;
+  border: none;
+  align-self: center;
+  border-radius: 5px;
+  height:25px;
+  width: 75px;
+
+}
+
+footer{
+  clear:both;
+  color:white;
+}
+#testimonial{
+  height: 80vh;
+}
+.navbar-cust{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+
+}

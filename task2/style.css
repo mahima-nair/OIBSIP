@@ -1,0 +1,134 @@
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height:100vh;
+
+
+}
+
+
+.intro-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-family: 'Radley', serif;
+    font-size: 5rem;
+}
+.head2{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 5rem;
+    color: #9B4819;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.first{
+    display: flex;
+    background-color: rgb(231, 207, 180);
+    padding:20%;
+    justify-content:end;
+    align-items: center;
+
+}
+.second{ 
+    display: flex;
+    background-color: rgb(231, 207, 180);
+    justify-content:start;
+    align-items: center;
+
+}
+.bg-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.5fr;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%;
+
+}
+.bg-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3%;
+    
+
+}
+.bg-container>img{
+    background-color: #DA8657;
+    padding: 5%;
+}
+.firsthead{
+    grid-column: span 3;
+    font-family: Radley;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: wavy; 
+    color:#9B4819;
+
+}
+.second-head{
+    /* grid-column: span 2; */
+    font-family: Radley;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: wavy; 
+    color:#9B4819;
+
+}
+.grid-item{
+    text-align: center;
+   
+}
+.list{
+    text-align: left;
+}
+#education{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    margin:0;
+    padding: 0;
+}
+#features{
+    display: flex;
+}
+#experience{
+    display: flex;
+    background-color: #DA8657;
+    justify-content: center;
+    align-content:center;
+    margin:0;
+   padding: 0;
+
+}
+p{
+    font-family: Poppins;
+    font-size:medium;
+    color: black;
+}
+#contact{
+    display: flex;
+    background-color: #DA8657;
+    justify-content: center;
+    align-content:center;
+    margin:0;
+   padding: 0;
+}
+ .ct-container{
+    background-color: #DA8657 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 80vh;
+ }
