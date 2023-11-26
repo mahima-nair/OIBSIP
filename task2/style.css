@@ -1,3 +1,10 @@
+/* Mahima Nair
+task 2: Portfolio webpage creation */
+
+*{
+    padding: 0;
+    margin:0;
+}
 .flex-container{
     display:flex;
     justify-content: center;
@@ -7,15 +14,51 @@
 
 
 }
-
-
 .intro-container{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 30px;
+   
+}
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: #0397CF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    color: #0397CF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+ 
+}
+nav ul li a:hover{
+    color:aqua;
+}
+
+
+
+
 .head{
     font-family: 'Radley', serif;
     font-size: 5rem;
@@ -23,7 +66,7 @@
 .head2{
     font-family: 'Pinyon Script', cursive;
     font-size: 5rem;
-    color: #9B4819;
+    color: #0397CF;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -32,19 +75,13 @@ body{
 
 .first{
     display: flex;
-    background-color: rgb(231, 207, 180);
-    padding:20%;
+    background-color:aliceblue;
+    padding:15%;
     justify-content:end;
     align-items: center;
 
 }
-.second{ 
-    display: flex;
-    background-color: rgb(231, 207, 180);
-    justify-content:start;
-    align-items: center;
 
-}
 .bg-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -61,11 +98,12 @@ body{
     justify-content: center;
     gap: 10px;
     margin-top: 3%;
+    columns: aliceblue;
     
 
 }
 .bg-container>img{
-    background-color: #DA8657;
+    background-color: aliceblue;
     padding: 5%;
 }
 .firsthead{
@@ -74,7 +112,7 @@ body{
     font-size: 2.5rem;
     text-align: center;
     text-decoration: wavy; 
-    color:#9B4819;
+   
 
 }
 .second-head{
@@ -83,15 +121,24 @@ body{
     font-size: 2.5rem;
     text-align: center;
     text-decoration: wavy; 
-    color:#9B4819;
+    color:aliceblue;
+
+}
+h3{
+    font-family: Radley;
+    text-align: center;
+    text-decoration: wavy; 
+    color:aliceblue;
 
 }
 .grid-item{
     text-align: center;
+    margin-bottom: 5%;
    
 }
 .list{
     text-align: left;
+    color: aliceblue;
 }
 #education{
     display: flex;
@@ -104,10 +151,8 @@ body{
     display: flex;
 }
 #experience{
-    display: flex;
-    background-color: #DA8657;
-    justify-content: center;
-    align-content:center;
+    background: linear-gradient(to bottom, #7B40BD, #861E74);
+    
     margin:0;
    padding: 0;
 
@@ -117,18 +162,91 @@ p{
     font-size:medium;
     color: black;
 }
-#contact{
+
+
+ #contact{
+    padding:5%;
+    background-color: hsl(196, 97%, 41%);
+    width: 100vw;
+    margin:clear;
+
+ }
+ .row{
     display: flex;
-    background-color: #DA8657;
-    justify-content: center;
-    align-content:center;
-    margin:0;
-   padding: 0;
-}
- .ct-container{
-    background-color: #DA8657 ;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 80vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+
+ .work-list ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+
+ }
+
+
+ #experience ul li{
+    display: block;
+  
+ }
+ #experience .list ul li img{
+    height: 50px;    
+    border-radius: 50%;
+    padding: 5px; 
+    display: inline;  
+ }
+ #experience ul img{
+    height: 50px;
+    background-color: white; 
+    padding: 5px; 
+    border-radius: 50%; 
+    margin:2%
+ }
+
+ #project .grid-item:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+
+ }
+ #project .grid-item img:hover{
+    box-shadow: black;
+ }
+
+ button{
+    width:100%;
+    float:fit-content;
+    background-color: #32cc32;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+ }
+ footer{
+    background-color: #0397CF;
+    margin: clear;
+ }
+ .footer{
+    background-color: #0397CF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+ .social-icon a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: whitesmoke solid;
+    border-radius: 50%;
+    margin: 20px;
+
+
  }
